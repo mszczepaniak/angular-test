@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-item.component.css']
 })
 export class UserItemComponent implements OnInit {
-  public names: string[];
+  public name: string;
 
   constructor() {
-    this.names = ['Andre', 'Matthias', 'Waldi', 'Victor'];
+    this.name = 'Michal';
    }
   ngOnInit() {
   }
